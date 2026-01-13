@@ -15,6 +15,4 @@ def get_feature_importance(df):
     dt.fit(X, y)
     
     importance = dict(zip(['Country', 'Solution', 'Action Type'], dt.feature_importances_))
-    with open('../Data/model_weights.json', 'w') as f:
-        json.dump(importance, f)
     return importance
