@@ -22,6 +22,7 @@ def run_cleaning(file_name='data_all.xltx'):
         return 'In Progress'
 
     df['Outcome'] = df['Outcome'].apply(simplify_outcome)
-    df.to_csv('../Data/cleaned_data.csv', index=False, encoding='utf-8-sig')
+    df.to_csv('Data/cleaned_data.csv', index=False, encoding='utf-8-sig')
 
     return df
+
