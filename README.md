@@ -12,11 +12,11 @@
 * **ranim_326483**
 
 ## Project Structure
-* `data_cleaning.py`, `ml_model.py`, `recommender.py`, etc.
+* `run_system.py`: The main entry point to execute the system (Root Directory).
 * `src/`: Contains core Python modules:
+    * `data_cleaning.py`, `ml_model.py`, `recommender.py`, etc.
 * `Data/`: Directory for input data files (e.g., data_all.xltx).
 * `requirements.txt`: List of required Python libraries.
-* `run_system.py`: The main entry point to execute the system.
 
 
 ## How to Run
