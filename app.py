@@ -20,8 +20,8 @@ def index():
         session['selected_country'] = request.form.get('country')
         session['selected_solution'] = request.form.get('solution')
 
-    country = session.get('selected_country', sorted(df['Country'].unique())[0])
-    solution = session.get('selected_solution', sorted(df['Solution'].unique())[0])
+    country = session.get('selected_country', 'US')
+    solution = session.get('selected_solution', 'MRS')
 
     c, s, cs, dynamic = get_recommendations(df, weights, country, solution, session['current_path'])
 
