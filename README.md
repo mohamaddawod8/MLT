@@ -1,15 +1,15 @@
 # Customer Journey Analytics System (ML-Based)
 
 ## Course Information
-* **University:** Syrian Virtual University (SVU)
-* **Course:** MLT
-* **Semester:** S25
+* University: Syrian Virtual University (SVU)
+* Course: MLT
+* Semester: S25
 
 ## Developed by
-* **mohammad_331189** 
-* **mohammad_323455** 
-* **rouaa_298365**
-* **ranim_326483**
+* mohammad_331189
+* mohammad_323455
+* rouaa_298365
+* ranim_326483
 
 ---
 
@@ -37,21 +37,20 @@ An advanced system designed to analyze customer journeys and suggest "Next Best 
 To run the project on your local machine:
 
 **Install Dependencies:**
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
 
 **Run Terminal Version:**
-\`\`\`bash
+```bash
 python run_system.py
-\`\`\`
 
 **Run Web Dashboard:**
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+
 *Navigate to: http://127.0.0.1:5000*
 
 ### 2. Online Deployment
 The project is hosted and running live at the following link:
-**[https://mohamaddawod8.pythonanywhere.com](https://mohamaddawod8.pythonanywhere.com)**
+https://mohamaddawod8.pythonanywhere.com
+
